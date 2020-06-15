@@ -37,7 +37,7 @@ class _UserTransactionsState extends State<UserTransactions> {
       children: <Widget>[
         NewTransaction(_addNewTransaction),
         TransactionList(
-          transactionList: transactionList,
+          transactions: transactionList,
         ),
       ],
     );
